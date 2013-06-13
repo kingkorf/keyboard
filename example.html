@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Keyboard.js - Javascript keyboard</title>
+
+	<link rel="stylesheet" href="keyboard.css">
+</head>
+<body>
+	<input type="text">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="keyboard.js"></script>
+
+	<script>
+		$(function() {
+			var keyboard = new Keyboard();
+			keyboard.addField('input');	
+		})
+	</script>
+</body>
+</html>
